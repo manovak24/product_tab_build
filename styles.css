@@ -48,4 +48,14 @@ html {
 
 .content-active {
     display: block;
+    animation: fade 2s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    } 
 }
